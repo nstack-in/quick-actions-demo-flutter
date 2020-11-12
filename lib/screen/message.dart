@@ -14,6 +14,12 @@ class _MessageScreenState extends State<MessageScreen> {
           'Message',
         ),
       ),
+      body: Center(
+        child: Text(
+          'Message Screen',
+          style: Theme.of(context).textTheme.headline3,
+        ),
+      ),
     );
   }
 }

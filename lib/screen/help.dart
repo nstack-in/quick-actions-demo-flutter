@@ -14,6 +14,12 @@ class _HelpScreenState extends State<HelpScreen> {
           'Help',
         ),
       ),
+      body: Center(
+        child: Text(
+          'Help Screen',
+          style: Theme.of(context).textTheme.headline3,
+        ),
+      ),
     );
   }
 }
